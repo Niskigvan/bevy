@@ -22,6 +22,7 @@ use std::ops::Range;
 use bevy_app::{App, Plugin};
 use bevy_core::FloatOrd;
 use bevy_ecs::prelude::*;
+use bevy_render::texture::DEFAULT_DEPTH_FORMAT;
 use bevy_render::{
     camera::{ActiveCamera, Camera2d, Camera3d, ExtractedCamera, RenderTarget},
     color::Color,
